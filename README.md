@@ -1,6 +1,6 @@
 # liquid-cache
 
-TODO: Write a description here
+Cache block for the liquid template engine
 
 ## Installation
 
@@ -9,13 +9,13 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   liquid-cache:
-    github: [your-github-name]/liquid-cache
+    github: TechMagister/liquid-cache.cr
 ```
 
 ## Usage
 
 ```crystal
-require "liquid-cache"
+require "liquid-cache/redis"
 ```
 
 TODO: Write usage instructions here
@@ -26,7 +26,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/liquid-cache/fork )
+1. Fork it ( https://github.com/TechMagister/liquid-cache.cr/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -34,4 +34,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Arnaud Fernandés - creator, maintainer
+- [TechMagister](https://github.com/TechMagister) Arnaud Fernandés - creator, maintainer
