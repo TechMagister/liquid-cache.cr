@@ -1,0 +1,17 @@
+name: liquid-cache
+version: 0.1.0
+
+authors:
+  - Arnaud Fernandés <arnaud.fernandes@laposte.net>
+
+crystal: 0.20.1+68
+
+license: MIT
+
+dependencies:
+  liquid:
+    github: TechMagister/liquid.cr
+
+development_dependencies:
+  redis:
+    github: manastech/crystal_redis
