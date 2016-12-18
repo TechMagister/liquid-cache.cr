@@ -1,0 +1,18 @@
+{% cache myarray %}
+    {% for x in myarray %}
+        Do stuff :
+        {% if x < 500 %}
+            Less than 500 : {{x}}
+        {% else %}
+            More than 500 : {{x}}
+        {% endif%}
+    {% endfor %}
+    {% for x in myarray %}
+        Do stuff again :
+        {% if x < 500 %}
+            Less than 500 : {{x}}
+        {% else %}
+            More than 500 : {{x}}
+        {% endif%}
+    {% endfor %}
+{% endcache %}
